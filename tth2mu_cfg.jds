@@ -1,0 +1,13 @@
+executable = /cms/scratch/daniel/CMSSW_8_0_26_patch1/src/CATTools/CatAnalyzer/test/Nano_AOD/tth2mu.sh
+universe = vanilla 
+output = out.txt
+error = err.txt
+log = log.txt
+getenv = True
+
+arguments = root://cms-xrdr.sdfarm.kr:1094///xrd/store/group/nanoAOD/SingleMuon/run2_2016RD_NANO_Run2016C-18Apr2017-v1/171112_161105/0000/run2_2016RD_NANO_89.root root://cms-xrdr.sdfarm.kr:1094///xrd/store/group/nanoAOD/SingleMuon/run2_2016RD_NANO_Run2016C-18Apr2017-v1/171112_161105/0000/run2_2016RD_NANO_9.root root://cms-xrdr.sdfarm.kr:1094///xrd/store/group/nanoAOD/SingleMuon/run2_2016RD_NANO_Run2016C-18Apr2017-v1/171112_161105/0000/run2_2016RD_NANO_90.root
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_output_files = NanoAOD
+
+queue 
